@@ -1,0 +1,534 @@
+{
+  "title": "DevOps",
+  "id": 1,
+  "formatVersion": 2,
+  "attr": {
+    "style": {
+      "background": "#000000"
+    }
+  },
+  "ideas": {
+    "10": {
+      "title": "what",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "a culture",
+          "id": 5
+        },
+        "2": {
+          "title": "hole in the \"WALL\"",
+          "id": 6
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "11": {
+      "title": "how",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Through Infrastructure  Automation ",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "how",
+              "id": 16,
+              "ideas": {
+                "1": {
+                  "title": "treat infrastructure as code ",
+                  "id": 17
+                }
+              },
+              "attr": {
+                "position": [
+                  170,
+                  -77.1875,
+                  1
+                ],
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "what is automated",
+              "id": 35,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "virtual machines",
+                  "id": 21,
+                  "ideas": {
+                    "3": {
+                      "title": "tools",
+                      "id": 42,
+                      "ideas": {
+                        "1": {
+                          "title": "vagrant",
+                          "id": 43,
+                          "ideas": {
+                            "3": {
+                              "title": "what",
+                              "id": 60,
+                              "ideas": {
+                                "1": {
+                                  "title": "scripting for virtualization",
+                                  "id": 61,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#00ccff"
+                                }
+                              }
+                            },
+                            "1.5": {
+                              "title": "how",
+                              "id": 62,
+                              "ideas": {
+                                "1": {
+                                  "title": "Vagrant file",
+                                  "id": 45,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "boxes",
+                                      "id": 55,
+                                      "attr": {
+                                        "position": [
+                                          9,
+                                          37.03125,
+                                          3
+                                        ],
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "community",
+                                          "id": 77,
+                                          "ideas": {
+                                            "1": {
+                                              "title": "hashicorp",
+                                              "id": 79,
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#00ccff"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "custom",
+                                          "id": 78,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "provisoner",
+                                      "id": 63,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "SHELL",
+                                          "id": 64,
+                                          "ideas": {},
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Chef",
+                                          "id": 66,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "Puppet",
+                                          "id": 67,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "4": {
+                                          "title": "Ansible",
+                                          "id": 69,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "5": {
+                                          "title": "Berkshelf",
+                                          "id": 75,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "6": {
+                                          "title": "Salt",
+                                          "id": 80,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "other",
+                                      "id": 81,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "host",
+                                          "id": 82,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "port",
+                                          "id": 83,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "memory",
+                                          "id": 84,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "0.5": {
+                                      "title": "provider",
+                                      "id": 56,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        },
+                                        "position": [
+                                          43,
+                                          -49.65625,
+                                          4
+                                        ]
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "Virtualbox",
+                                          "id": 72,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "Vmware",
+                                          "id": 73,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "Docker",
+                                          "id": 74,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    }
+                                  }
+                                },
+                                "2": {
+                                  "title": "key commands",
+                                  "id": 46,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "vagrant up",
+                                      "id": 50,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "vagrant halt",
+                                      "id": 51,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "4": {
+                                      "title": "vagrant destroy",
+                                      "id": 54,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "5": {
+                                      "title": "vagrant provision",
+                                      "id": 76,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    },
+                                    "1.5": {
+                                      "title": "vagrant ssh",
+                                      "id": 53,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#00ccff"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#00ccff"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#00ccff"
+                            },
+                            "collapsed": true
+                          }
+                        },
+                        "2": {
+                          "title": "docker",
+                          "id": 44
+                        }
+                      }
+                    },
+                    "1.5": {
+                      "title": "types",
+                      "id": 52,
+                      "ideas": {
+                        "1": {
+                          "title": "containerization",
+                          "id": 25,
+                          "ideas": {
+                            "1": {
+                              "title": "LXC (based off chroot jail)",
+                              "id": 33
+                            },
+                            "2": {
+                              "title": "LXD",
+                              "id": 39,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "CGManager",
+                              "id": 41,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff0000"
+                                }
+                              }
+                            },
+                            "4": {
+                              "title": "providers",
+                              "id": 57,
+                              "ideas": {
+                                "1": {
+                                  "title": "docker",
+                                  "id": 59
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {}
+                          }
+                        },
+                        "2": {
+                          "title": "hyperviser virtualization",
+                          "id": 23,
+                          "ideas": {
+                            "1": {
+                              "title": "type1",
+                              "id": 27,
+                              "ideas": {
+                                "1": {
+                                  "title": "on bare metal",
+                                  "id": 28
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "type2",
+                              "id": 30,
+                              "ideas": {
+                                "1": {
+                                  "title": "on host OS",
+                                  "id": 31
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "providers",
+                              "id": 18,
+                              "ideas": {
+                                "2": {
+                                  "title": "Virtual box",
+                                  "id": 38,
+                                  "attr": {
+                                    "style": {}
+                                  }
+                                },
+                                "12": {
+                                  "title": "VMware",
+                                  "id": 36,
+                                  "ideas": {},
+                                  "attr": {
+                                    "position": [
+                                      146,
+                                      33.8515625,
+                                      1
+                                    ],
+                                    "style": {}
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {},
+                                "position": [
+                                  220,
+                                  51.453125,
+                                  1
+                                ]
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {},
+                            "position": [
+                              92,
+                              199.09375,
+                              1
+                            ]
+                          }
+                        }
+                      },
+                      "attr": {
+                        "position": [
+                          96,
+                          -174.65625,
+                          1
+                        ],
+                        "style": {}
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "-10": {
+      "title": "why",
+      "id": 9,
+      "attr": {
+        "position": [
+          106,
+          -121.5,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "aids fast pace deployment  and development",
+          "id": 12
+        }
+      }
+    }
+  },
+  "links": []
+}
