@@ -959,7 +959,12 @@
                                   "ideas": {
                                     "1": {
                                       "title": "include other recipes",
-                                      "id": 151
+                                      "id": 151,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
                                     },
                                     "2": {
                                       "title": "use chef resources",
@@ -967,15 +972,30 @@
                                       "ideas": {
                                         "1": {
                                           "title": "file",
-                                          "id": 153
+                                          "id": 153,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         },
                                         "2": {
                                           "title": "service",
-                                          "id": 154
+                                          "id": 154,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         },
                                         "3": {
                                           "title": "...",
-                                          "id": 155
+                                          "id": 155,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         },
                                         "4": {
                                           "title": "has",
@@ -983,11 +1003,21 @@
                                           "ideas": {
                                             "1": {
                                               "title": "name",
-                                              "id": 160
+                                              "id": 160,
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#ff9900"
+                                                }
+                                              }
                                             },
                                             "2": {
                                               "title": "actions",
-                                              "id": 161
+                                              "id": 161,
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#ff9900"
+                                                }
+                                              }
                                             }
                                           },
                                           "attr": {
@@ -996,17 +1026,51 @@
                                               114.2890625,
                                               1
                                             ],
-                                            "style": {}
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
                                           }
                                         },
                                         "2.5": {
                                           "title": "log",
                                           "id": 158,
                                           "attr": {
-                                            "style": {}
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
                                           }
                                         }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
                                       }
+                                    },
+                                    "3": {
+                                      "title": "use attributes",
+                                      "id": 163,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "node[\"apache\"][\"dir\"]",
+                                          "id": 165,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
                                     }
                                   }
                                 },
@@ -1014,29 +1078,38 @@
                                   "title": "attributes https://docs.chef.io/attributes.html",
                                   "id": 142,
                                   "attr": {
-                                    "style": {}
+                                    "style": {
+                                      "background": "#ff9900"
+                                    }
                                   }
                                 },
                                 "3": {
                                   "title": "Berksfile",
                                   "id": 148,
                                   "attr": {
-                                    "style": {}
+                                    "style": {
+                                      "background": "#ff9900"
+                                    },
+                                    "collapsed": true
                                   },
                                   "ideas": {
                                     "1": {
                                       "title": "manage dependencies outside of chef community",
-                                      "id": 156
-                                    }
-                                  }
-                                },
-                                "4": {
-                                  "title": "metadata.rb",
-                                  "id": 149,
-                                  "ideas": {
-                                    "1": {
-                                      "title": "define dependencies",
-                                      "id": 150
+                                      "id": 156,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "BerkShelf for dependencies",
+                                      "id": 166,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
                                     }
                                   }
                                 },
@@ -1044,28 +1117,64 @@
                                   "title": "templates",
                                   "id": 162,
                                   "attr": {
-                                    "style": {},
+                                    "style": {
+                                      "background": "#ff0000"
+                                    },
                                     "position": [
-                                      48,
-                                      230.9140625,
+                                      83,
+                                      112.7890625,
                                       1
                                     ]
                                   }
+                                },
+                                "0.5": {
+                                  "title": "metadata.rb",
+                                  "id": 149,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "define dependencies",
+                                      "id": 150,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
+                                    }
+                                  }
                                 }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#ff9900"
+                                },
+                                "position": [
+                                  74,
+                                  -73.60546875,
+                                  1
+                                ]
                               }
                             },
                             "2": {
                               "title": "roles",
                               "id": 143,
                               "attr": {
-                                "style": {}
+                                "style": {
+                                  "background": "#ff0000"
+                                }
                               }
                             },
                             "3": {
                               "title": "data bags",
                               "id": 145,
                               "attr": {
-                                "style": {}
+                                "style": {
+                                  "background": "#ff0000"
+                                }
                               }
                             },
                             "4": {
@@ -1085,6 +1194,11 @@
                                   "background": "#ff0000"
                                 }
                               }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#ff9900"
                             }
                           }
                         }
