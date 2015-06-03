@@ -14,17 +14,21 @@
       "ideas": {
         "1": {
           "title": "a culture",
-          "id": 5
+          "id": 5,
+          "attr": {
+            "style": {}
+          }
         },
         "2": {
           "title": "hole in the \"WALL\" between OPS and DEV",
           "id": 6,
-          "attr": {}
+          "attr": {
+            "style": {}
+          }
         }
       },
       "attr": {
-        "style": {},
-        "collapsed": true
+        "style": {}
       }
     },
     "11": {
@@ -45,7 +49,10 @@
                   "ideas": {
                     "1": {
                       "title": "treat infrastructure as code ",
-                      "id": 17
+                      "id": 17,
+                      "attr": {
+                        "style": {}
+                      }
                     }
                   },
                   "attr": {
@@ -81,8 +88,7 @@
                               "attr": {
                                 "style": {
                                   "background": "#00ccff"
-                                },
-                                "collapsed": true
+                                }
                               }
                             },
                             "1.5": {
@@ -352,21 +358,22 @@
                               "attr": {
                                 "style": {
                                   "background": "#00ccff"
-                                },
-                                "collapsed": true
+                                }
                               }
                             }
                           },
                           "attr": {
                             "style": {
                               "background": "#00ccff"
-                            },
-                            "collapsed": true
+                            }
                           }
                         },
                         "2": {
                           "title": "docker",
-                          "id": 44
+                          "id": 44,
+                          "attr": {
+                            "style": {}
+                          }
                         }
                       },
                       "attr": {
@@ -388,7 +395,10 @@
                           "ideas": {
                             "1": {
                               "title": "LXC (based off chroot jail)",
-                              "id": 33
+                              "id": 33,
+                              "attr": {
+                                "style": {}
+                              }
                             },
                             "2": {
                               "title": "LXD",
@@ -414,17 +424,16 @@
                               "ideas": {
                                 "1": {
                                   "title": "docker",
-                                  "id": 59
+                                  "id": 59,
+                                  "attr": {
+                                    "style": {}
+                                  }
                                 }
-                              },
-                              "attr": {
-                                "collapsed": true
                               }
                             }
                           },
                           "attr": {
-                            "style": {},
-                            "collapsed": true
+                            "style": {}
                           }
                         },
                         "2": {
@@ -437,11 +446,11 @@
                               "ideas": {
                                 "1": {
                                   "title": "on bare metal",
-                                  "id": 28
+                                  "id": 28,
+                                  "attr": {
+                                    "style": {}
+                                  }
                                 }
-                              },
-                              "attr": {
-                                "collapsed": true
                               }
                             },
                             "2": {
@@ -450,11 +459,11 @@
                               "ideas": {
                                 "1": {
                                   "title": "on host OS",
-                                  "id": 31
+                                  "id": 31,
+                                  "attr": {
+                                    "style": {}
+                                  }
                                 }
-                              },
-                              "attr": {
-                                "collapsed": true
                               }
                             },
                             "3": {
@@ -488,8 +497,7 @@
                                   220,
                                   51.453125,
                                   1
-                                ],
-                                "collapsed": true
+                                ]
                               }
                             }
                           },
@@ -499,8 +507,7 @@
                               92,
                               199.09375,
                               1
-                            ],
-                            "collapsed": true
+                            ]
                           }
                         }
                       },
@@ -510,8 +517,7 @@
                           -83,
                           1
                         ],
-                        "style": {},
-                        "collapsed": true
+                        "style": {}
                       }
                     }
                   },
@@ -520,7 +526,7 @@
                   }
                 },
                 "4": {
-                  "title": "provisioniing",
+                  "title": "provisioning",
                   "id": 85,
                   "attr": {
                     "style": {}
@@ -547,13 +553,15 @@
           -121.5,
           1
         ],
-        "style": {},
-        "collapsed": true
+        "style": {}
       },
       "ideas": {
         "1": {
           "title": "aids fast pace deployment  and development",
-          "id": 12
+          "id": 12,
+          "attr": {
+            "style": {}
+          }
         }
       }
     }
