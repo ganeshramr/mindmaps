@@ -28,10 +28,15 @@
         }
       },
       "attr": {
-        "style": {}
+        "style": {},
+        "position": [
+          76,
+          -133.904296875,
+          2
+        ]
       }
     },
-    "11": {
+    "20": {
       "title": "how",
       "id": 13,
       "ideas": {
@@ -95,7 +100,8 @@
                                         ],
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -115,7 +121,8 @@
                                           "attr": {
                                             "style": {
                                               "background": "#00ccff"
-                                            }
+                                            },
+                                            "collapsed": true
                                           }
                                         },
                                         "2": {
@@ -192,7 +199,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     },
                                     "3": {
@@ -230,7 +238,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     },
                                     "0.5": {
@@ -244,7 +253,8 @@
                                           43,
                                           -49.65625,
                                           4
-                                        ]
+                                        ],
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -289,7 +299,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "2": {
@@ -345,14 +356,16 @@
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               },
                               "attr": {
                                 "style": {
                                   "background": "#00ccff"
-                                }
+                                },
+                                "collapsed": true
                               }
                             },
                             "0.75": {
@@ -377,14 +390,16 @@
                                   66,
                                   -107.25,
                                   1
-                                ]
+                                ],
+                                "collapsed": true
                               }
                             }
                           },
                           "attr": {
                             "style": {
                               "background": "#00ccff"
-                            }
+                            },
+                            "collapsed": true
                           }
                         },
                         "2": {
@@ -582,7 +597,8 @@
                               "attr": {
                                 "style": {
                                   "background": "#ff9900"
-                                }
+                                },
+                                "collapsed": true
                               },
                               "ideas": {
                                 "1": {
@@ -625,7 +641,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "2": {
@@ -664,7 +681,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               }
@@ -680,7 +698,8 @@
                                   21,
                                   116.486328125,
                                   1
-                                ]
+                                ],
+                                "collapsed": true
                               },
                               "ideas": {
                                 "1": {
@@ -700,7 +719,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "3": {
@@ -743,14 +763,16 @@
                                           50,
                                           100.578125,
                                           2
-                                        ]
+                                        ],
+                                        "collapsed": true
                                       }
                                     }
                                   },
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               }
@@ -769,7 +791,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
-                                        }
+                                        },
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -798,7 +821,8 @@
                                           "attr": {
                                             "style": {
                                               "background": "#ff9900"
-                                            }
+                                            },
+                                            "collapsed": true
                                           }
                                         },
                                         "2": {
@@ -828,7 +852,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
-                                        }
+                                        },
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -864,7 +889,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "1.5": {
@@ -916,21 +942,24 @@
                                     ],
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               },
                               "attr": {
                                 "style": {
                                   "background": "#ff9900"
-                                }
+                                },
+                                "collapsed": true
                               }
                             }
                           },
                           "attr": {
                             "style": {
                               "background": "#ff9900"
-                            }
+                            },
+                            "collapsed": true
                           }
                         },
                         "5": {
@@ -1016,7 +1045,8 @@
                                             ],
                                             "style": {
                                               "background": "#ff9900"
-                                            }
+                                            },
+                                            "collapsed": true
                                           }
                                         },
                                         "2.5": {
@@ -1032,7 +1062,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     },
                                     "3": {
@@ -1052,14 +1083,16 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     }
                                   },
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "2": {
@@ -1077,7 +1110,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   },
                                   "ideas": {
                                     "1": {
@@ -1131,7 +1165,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               },
@@ -1143,7 +1178,8 @@
                                   74,
                                   -73.60546875,
                                   1
-                                ]
+                                ],
+                                "collapsed": true
                               }
                             },
                             "2": {
@@ -1186,14 +1222,16 @@
                           "attr": {
                             "style": {
                               "background": "#ff9900"
-                            }
+                            },
+                            "collapsed": true
                           }
                         }
                       },
                       "attr": {
                         "style": {
                           "background": "#ff9900"
-                        }
+                        },
+                        "collapsed": true
                       }
                     },
                     "2": {
@@ -1225,7 +1263,12 @@
         }
       },
       "attr": {
-        "style": {}
+        "style": {},
+        "position": [
+          25.5,
+          102,
+          3
+        ]
       }
     },
     "-10": {
