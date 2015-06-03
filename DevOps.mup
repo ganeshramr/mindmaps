@@ -58,7 +58,12 @@
                   },
                   "attr": {
                     "style": {},
-                    "collapsed": true
+                    "collapsed": true,
+                    "position": [
+                      80,
+                      -237,
+                      1
+                    ]
                   }
                 },
                 "3": {
@@ -73,27 +78,6 @@
                           "title": "vagrant",
                           "id": 43,
                           "ideas": {
-                            "3": {
-                              "title": "what",
-                              "id": 60,
-                              "ideas": {
-                                "1": {
-                                  "title": "scripting for virtualization",
-                                  "id": 61,
-                                  "attr": {
-                                    "style": {
-                                      "background": "#00ccff"
-                                    }
-                                  }
-                                }
-                              },
-                              "attr": {
-                                "style": {
-                                  "background": "#00ccff"
-                                },
-                                "collapsed": true
-                              }
-                            },
                             "1.5": {
                               "title": "how",
                               "id": 62,
@@ -266,8 +250,7 @@
                                           43,
                                           -49.65625,
                                           4
-                                        ],
-                                        "collapsed": true
+                                        ]
                                       },
                                       "ideas": {
                                         "1": {
@@ -296,6 +279,15 @@
                                               "background": "#00ccff"
                                             }
                                           }
+                                        },
+                                        "4": {
+                                          "title": "...",
+                                          "id": 129,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#00ccff"
+                                            }
+                                          }
                                         }
                                       }
                                     }
@@ -303,8 +295,7 @@
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
-                                    },
-                                    "collapsed": true
+                                    }
                                   }
                                 },
                                 "2": {
@@ -369,6 +360,31 @@
                                 "style": {
                                   "background": "#00ccff"
                                 }
+                              }
+                            },
+                            "0.75": {
+                              "title": "what",
+                              "id": 60,
+                              "ideas": {
+                                "1": {
+                                  "title": "scripting for virtualization",
+                                  "id": 61,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#00ccff"
+                                },
+                                "position": [
+                                  66,
+                                  -107.25,
+                                  1
+                                ]
                               }
                             }
                           },
@@ -467,7 +483,8 @@
                                 }
                               },
                               "attr": {
-                                "collapsed": true
+                                "collapsed": true,
+                                "style": {}
                               }
                             },
                             "2": {
@@ -483,7 +500,8 @@
                                 }
                               },
                               "attr": {
-                                "collapsed": true
+                                "collapsed": true,
+                                "style": {}
                               }
                             },
                             "3": {
@@ -509,6 +527,10 @@
                                     ],
                                     "style": {}
                                   }
+                                },
+                                "13": {
+                                  "title": "...",
+                                  "id": 130
                                 }
                               },
                               "attr": {
@@ -517,8 +539,7 @@
                                   220,
                                   51.453125,
                                   1
-                                ],
-                                "collapsed": true
+                                ]
                               }
                             }
                           },
@@ -528,8 +549,7 @@
                               92,
                               199.09375,
                               1
-                            ],
-                            "collapsed": true
+                            ]
                           }
                         }
                       },
@@ -539,8 +559,7 @@
                           -83,
                           1
                         ],
-                        "style": {},
-                        "collapsed": true
+                        "style": {}
                       }
                     }
                   },
@@ -564,7 +583,7 @@
                       "id": 87,
                       "ideas": {
                         "4": {
-                          "title": "infrastructure http://bit.ly/1H08cqS",
+                          "title": "setup http://bit.ly/1H08cqS",
                           "id": 98,
                           "ideas": {
                             "1": {
@@ -575,24 +594,14 @@
                                   "background": "#ff9900"
                                 }
                               },
-                              "ideas": {}
-                            },
-                            "2": {
-                              "title": "chef-client",
-                              "id": 94,
-                              "attr": {
-                                "style": {
-                                  "background": "#ff9900"
-                                }
-                              },
                               "ideas": {
                                 "1": {
                                   "title": "what",
-                                  "id": 110,
+                                  "id": 114,
                                   "ideas": {
                                     "1": {
-                                      "title": "runs recipes from server: -o",
-                                      "id": 111,
+                                      "title": "store cookbooks",
+                                      "id": 115,
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
@@ -600,19 +609,17 @@
                                       }
                                     },
                                     "2": {
-                                      "title": "supports localmode: -z",
-                                      "id": 99,
-                                      "ideas": {
-                                        "1": {
-                                          "title": "chef-zero server",
-                                          "id": 103,
-                                          "attr": {
-                                            "style": {
-                                              "background": "#ff9900"
-                                            }
-                                          }
+                                      "title": "push cookbooks to clients",
+                                      "id": 116,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
                                         }
-                                      },
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "registry of organization,users and clients",
+                                      "id": 136,
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
@@ -628,11 +635,12 @@
                                 },
                                 "2": {
                                   "title": "setup",
-                                  "id": 107,
+                                  "id": 117,
                                   "ideas": {
                                     "1": {
-                                      "title": "knife bootstrap",
-                                      "id": 108,
+                                      "title": "organization",
+                                      "id": 119,
+                                      "ideas": {},
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
@@ -640,8 +648,17 @@
                                       }
                                     },
                                     "2": {
-                                      "title": "install",
-                                      "id": 109,
+                                      "title": "users",
+                                      "id": 121,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "keys",
+                                      "id": 122,
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
@@ -657,12 +674,120 @@
                                 }
                               }
                             },
-                            "3": {
+                            "2": {
+                              "title": "chef-client",
+                              "id": 94,
+                              "attr": {
+                                "style": {
+                                  "background": "#ff9900"
+                                },
+                                "collapsed": true
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "what",
+                                  "id": 110,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "runs recipes",
+                                      "id": 133,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
+                                    },
+                                    "collapsed": true
+                                  }
+                                },
+                                "3": {
+                                  "title": "how",
+                                  "id": 131,
+                                  "ideas": {
+                                    "2": {
+                                      "title": "knife bootstrap : remote ",
+                                      "id": 108,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "install : local",
+                                      "id": 109,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        },
+                                        "position": [
+                                          106,
+                                          -45.2109375,
+                                          1
+                                        ]
+                                      }
+                                    },
+                                    "4": {
+                                      "title": "run recipes from server: chef-client -o",
+                                      "id": 111,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        },
+                                        "position": [
+                                          125,
+                                          -2.2109375,
+                                          3
+                                        ]
+                                      }
+                                    },
+                                    "5": {
+                                      "title": "support local mode: chef-client  -z",
+                                      "id": 99,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "chef-zero server",
+                                          "id": 103,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        },
+                                        "position": [
+                                          50,
+                                          100.578125,
+                                          2
+                                        ],
+                                        "collapsed": true
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
+                                    },
+                                    "collapsed": true
+                                  }
+                                }
+                              }
+                            },
+                            "1.5": {
                               "title": "chef-workstation",
                               "id": 95,
                               "ideas": {
                                 "3": {
-                                  "title": "setup",
+                                  "title": "how",
                                   "id": 101,
                                   "ideas": {
                                     "1": {
@@ -671,6 +796,58 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
+                                        },
+                                        "collapsed": true
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "remote bootstrap client",
+                                          "id": 125,
+                                          "ideas": {
+                                            "1": {
+                                              "title": "register client with server",
+                                              "id": 134,
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#ff9900"
+                                                }
+                                              }
+                                            },
+                                            "2": {
+                                              "title": "install client agent",
+                                              "id": 135,
+                                              "attr": {
+                                                "style": {
+                                                  "background": "#ff9900"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            },
+                                            "collapsed": true
+                                          }
+                                        },
+                                        "2": {
+                                          "title": "generate ",
+                                          "id": 126,
+                                          "ideas": {},
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
+                                        },
+                                        "3": {
+                                          "title": "push cookbook to server",
+                                          "id": 128,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         }
                                       }
                                     },
@@ -680,7 +857,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
-                                        }
+                                        },
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -716,7 +894,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "1.5": {
@@ -726,6 +905,24 @@
                                     "1": {
                                       "title": "code cookbooks",
                                       "id": 113,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "push  cookbooks to server",
+                                      "id": 123,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "1.5": {
+                                      "title": "test cookbooks",
+                                      "id": 124,
                                       "attr": {
                                         "style": {
                                           "background": "#ff9900"
@@ -741,14 +938,16 @@
                                     ],
                                     "style": {
                                       "background": "#ff9900"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               },
                               "attr": {
                                 "style": {
                                   "background": "#ff9900"
-                                }
+                                },
+                                "collapsed": true
                               }
                             }
                           },
