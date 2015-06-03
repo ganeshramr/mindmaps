@@ -4,7 +4,7 @@
   "formatVersion": 2,
   "attr": {
     "style": {
-      "background": "#000000"
+      "background": "#800080"
     }
   },
   "ideas": {
@@ -28,7 +28,8 @@
         }
       },
       "attr": {
-        "style": {}
+        "style": {},
+        "collapsed": true
       }
     },
     "11": {
@@ -56,7 +57,8 @@
                     }
                   },
                   "attr": {
-                    "style": {}
+                    "style": {},
+                    "collapsed": true
                   }
                 },
                 "3": {
@@ -88,7 +90,8 @@
                               "attr": {
                                 "style": {
                                   "background": "#00ccff"
-                                }
+                                },
+                                "collapsed": true
                               }
                             },
                             "1.5": {
@@ -110,7 +113,8 @@
                                         ],
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -130,7 +134,8 @@
                                           "attr": {
                                             "style": {
                                               "background": "#00ccff"
-                                            }
+                                            },
+                                            "collapsed": true
                                           }
                                         },
                                         "2": {
@@ -207,7 +212,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     },
                                     "3": {
@@ -245,7 +251,8 @@
                                       "attr": {
                                         "style": {
                                           "background": "#00ccff"
-                                        }
+                                        },
+                                        "collapsed": true
                                       }
                                     },
                                     "0.5": {
@@ -259,7 +266,8 @@
                                           43,
                                           -49.65625,
                                           4
-                                        ]
+                                        ],
+                                        "collapsed": true
                                       },
                                       "ideas": {
                                         "1": {
@@ -295,7 +303,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 },
                                 "2": {
@@ -351,7 +360,8 @@
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
-                                    }
+                                    },
+                                    "collapsed": true
                                   }
                                 }
                               },
@@ -429,11 +439,15 @@
                                     "style": {}
                                   }
                                 }
+                              },
+                              "attr": {
+                                "collapsed": true
                               }
                             }
                           },
                           "attr": {
-                            "style": {}
+                            "style": {},
+                            "collapsed": true
                           }
                         },
                         "2": {
@@ -451,6 +465,9 @@
                                     "style": {}
                                   }
                                 }
+                              },
+                              "attr": {
+                                "collapsed": true
                               }
                             },
                             "2": {
@@ -464,6 +481,9 @@
                                     "style": {}
                                   }
                                 }
+                              },
+                              "attr": {
+                                "collapsed": true
                               }
                             },
                             "3": {
@@ -497,7 +517,8 @@
                                   220,
                                   51.453125,
                                   1
-                                ]
+                                ],
+                                "collapsed": true
                               }
                             }
                           },
@@ -507,7 +528,8 @@
                               92,
                               199.09375,
                               1
-                            ]
+                            ],
+                            "collapsed": true
                           }
                         }
                       },
@@ -517,21 +539,136 @@
                           -83,
                           1
                         ],
-                        "style": {}
+                        "style": {},
+                        "collapsed": true
                       }
                     }
                   },
                   "attr": {
-                    "style": {}
+                    "style": {
+                      "background": "#800080"
+                    },
+                    "collapsed": true
                   }
                 },
                 "4": {
                   "title": "provisioning",
                   "id": 85,
                   "attr": {
-                    "style": {}
+                    "style": {
+                      "background": "#800080"
+                    }
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Chef",
+                      "id": 87,
+                      "ideas": {
+                        "4": {
+                          "title": "infrastructure http://bit.ly/1H08cqS",
+                          "id": 98,
+                          "ideas": {
+                            "1": {
+                              "title": "chef-server",
+                              "id": 93,
+                              "attr": {
+                                "style": {}
+                              }
+                            },
+                            "2": {
+                              "title": "chef-client",
+                              "id": 94,
+                              "attr": {
+                                "style": {}
+                              },
+                              "ideas": {
+                                "1": {
+                                  "title": "supports localmode",
+                                  "id": 99,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "chef-zero server",
+                                      "id": 103
+                                    }
+                                  }
+                                },
+                                "2": {
+                                  "title": "setup",
+                                  "id": 107,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "knife bootstrap",
+                                      "id": 108
+                                    },
+                                    "2": {
+                                      "title": "install chef client",
+                                      "id": 109
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "chef-workstation",
+                              "id": 95,
+                              "ideas": {
+                                "3": {
+                                  "title": "setup",
+                                  "id": 101,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "knife",
+                                      "id": 100,
+                                      "attr": {
+                                        "style": {}
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "chefdk",
+                                      "id": 96,
+                                      "attr": {
+                                        "style": {}
+                                      },
+                                      "ideas": {
+                                        "1": {
+                                          "title": "chef",
+                                          "id": 104
+                                        },
+                                        "2": {
+                                          "title": "Berkshelf",
+                                          "id": 106
+                                        }
+                                      }
+                                    },
+                                    "3": {
+                                      "title": "chef repo",
+                                      "id": 105
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "Puppet",
+                      "id": 89,
+                      "ideas": {}
+                    },
+                    "3": {
+                      "title": "Ansible",
+                      "id": 91
+                    }
                   }
                 }
+              },
+              "attr": {
+                "style": {}
               }
             }
           },
@@ -553,7 +690,8 @@
           -121.5,
           1
         ],
-        "style": {}
+        "style": {},
+        "collapsed": true
       },
       "ideas": {
         "1": {
