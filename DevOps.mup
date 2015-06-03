@@ -547,8 +547,7 @@
                   "attr": {
                     "style": {
                       "background": "#800080"
-                    },
-                    "collapsed": true
+                    }
                   }
                 },
                 "4": {
@@ -572,23 +571,58 @@
                               "title": "chef-server",
                               "id": 93,
                               "attr": {
-                                "style": {}
-                              }
+                                "style": {
+                                  "background": "#ff9900"
+                                }
+                              },
+                              "ideas": {}
                             },
                             "2": {
                               "title": "chef-client",
                               "id": 94,
                               "attr": {
-                                "style": {}
+                                "style": {
+                                  "background": "#ff9900"
+                                }
                               },
                               "ideas": {
                                 "1": {
-                                  "title": "supports localmode",
-                                  "id": 99,
+                                  "title": "what",
+                                  "id": 110,
                                   "ideas": {
                                     "1": {
-                                      "title": "chef-zero server",
-                                      "id": 103
+                                      "title": "runs recipes from server: -o",
+                                      "id": 111,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    },
+                                    "2": {
+                                      "title": "supports localmode: -z",
+                                      "id": 99,
+                                      "ideas": {
+                                        "1": {
+                                          "title": "chef-zero server",
+                                          "id": 103,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
                                     }
                                   }
                                 },
@@ -598,11 +632,26 @@
                                   "ideas": {
                                     "1": {
                                       "title": "knife bootstrap",
-                                      "id": 108
+                                      "id": 108,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
                                     },
                                     "2": {
-                                      "title": "install chef client",
-                                      "id": 109
+                                      "title": "install",
+                                      "id": 109,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
                                     }
                                   }
                                 }
@@ -620,38 +669,99 @@
                                       "title": "knife",
                                       "id": 100,
                                       "attr": {
-                                        "style": {}
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
                                       }
                                     },
                                     "2": {
                                       "title": "chefdk",
                                       "id": 96,
                                       "attr": {
-                                        "style": {}
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
                                       },
                                       "ideas": {
                                         "1": {
                                           "title": "chef",
-                                          "id": 104
+                                          "id": 104,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         },
                                         "2": {
                                           "title": "Berkshelf",
-                                          "id": 106
+                                          "id": 106,
+                                          "attr": {
+                                            "style": {
+                                              "background": "#ff9900"
+                                            }
+                                          }
                                         }
                                       }
                                     },
                                     "3": {
                                       "title": "chef repo",
-                                      "id": 105
+                                      "id": 105,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "style": {
+                                      "background": "#ff9900"
+                                    }
+                                  }
+                                },
+                                "1.5": {
+                                  "title": "what",
+                                  "id": 112,
+                                  "ideas": {
+                                    "1": {
+                                      "title": "code cookbooks",
+                                      "id": 113,
+                                      "attr": {
+                                        "style": {
+                                          "background": "#ff9900"
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "attr": {
+                                    "position": [
+                                      101,
+                                      -127.25,
+                                      1
+                                    ],
+                                    "style": {
+                                      "background": "#ff9900"
                                     }
                                   }
                                 }
                               },
                               "attr": {
-                                "style": {}
+                                "style": {
+                                  "background": "#ff9900"
+                                }
                               }
                             }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#ff9900"
+                            }
                           }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#ff9900"
                         }
                       }
                     },
