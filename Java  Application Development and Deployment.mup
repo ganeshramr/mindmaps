@@ -1,0 +1,233 @@
+{
+  "title": "Java  Application Development and Deployment",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "10": {
+      "title": "Tools",
+      "id": 34,
+      "ideas": {
+        "1": {
+          "title": "Framework",
+          "id": 9,
+          "attr": {
+            "style": {},
+            "position": [
+              79.5,
+              -207,
+              3
+            ]
+          },
+          "ideas": {
+            "5": {
+              "title": "dev",
+              "id": 42,
+              "ideas": {
+                "1": {
+                  "title": "Axis",
+                  "id": 37,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "CXF",
+                  "id": 16,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "Jersey",
+                  "id": 13,
+                  "ideas": {},
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "Spring",
+                  "id": 11,
+                  "ideas": {},
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "6": {
+              "title": "testing",
+              "id": 43,
+              "ideas": {
+                "1": {
+                  "title": "JUnit",
+                  "id": 44
+                },
+                "2": {
+                  "title": "TestNG",
+                  "id": 45
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "Web/Application Serves",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "Tomcat",
+              "id": 19
+            },
+            "2": {
+              "title": "JBOSS",
+              "id": 22,
+              "ideas": {}
+            },
+            "3": {
+              "title": "WebLogic",
+              "id": 24
+            },
+            "4": {
+              "title": "Jetty",
+              "id": 46
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "IDE",
+          "id": 2,
+          "ideas": {
+            "1": {
+              "title": "Eclipse",
+              "id": 3
+            },
+            "2": {
+              "title": "Net Beans",
+              "id": 4
+            },
+            "3": {
+              "title": "IntelliJ IDEA",
+              "id": 5
+            }
+          },
+          "attr": {
+            "style": {},
+            "position": [
+              86.5,
+              168,
+              2
+            ]
+          }
+        },
+        "4": {
+          "title": "CI Server",
+          "id": 39,
+          "attr": {
+            "position": [
+              69.5,
+              306,
+              4
+            ],
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Jenkins",
+              "id": 40
+            },
+            "2": {
+              "title": "Hudson",
+              "id": 41
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "-1": {
+      "title": "Concepts",
+      "id": 33,
+      "ideas": {
+        "1": {
+          "title": "Architectural  Patterns",
+          "id": 25,
+          "ideas": {
+            "2": {
+              "title": "SOA",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "REST",
+                  "id": 26,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "SOAP",
+                  "id": 31
+                }
+              },
+              "attr": {
+                "position": [
+                  116.5,
+                  -137,
+                  1
+                ],
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Message Oriented",
+              "id": 29,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "JMS",
+                  "id": 35
+                },
+                "2": {
+                  "title": "AMQP",
+                  "id": 36,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "4": {
+              "title": "N Tier",
+              "id": 30,
+              "attr": {
+                "position": [
+                  179.5,
+                  106,
+                  2
+                ],
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "RMI",
+                  "id": 38
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    }
+  },
+  "links": []
+}
