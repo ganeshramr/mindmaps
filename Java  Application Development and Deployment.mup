@@ -52,6 +52,10 @@
                   "attr": {
                     "style": {}
                   }
+                },
+                "5": {
+                  "title": "Apache Camel",
+                  "id": 105
                 }
               }
             },
@@ -70,6 +74,60 @@
                 "3": {
                   "title": "Selenium",
                   "id": 48
+                }
+              }
+            },
+            "7": {
+              "title": "Logging",
+              "id": 82,
+              "ideas": {
+                "1": {
+                  "title": "Log4j2",
+                  "id": 83,
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "SLF4j",
+                  "id": 85
+                },
+                "3": {
+                  "title": "ELK",
+                  "id": 110
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            },
+            "8": {
+              "title": "Messaging",
+              "id": 106,
+              "ideas": {
+                "1": {
+                  "title": "ActiveMQ",
+                  "id": 107
+                },
+                "2": {
+                  "title": "RabbitMQ",
+                  "id": 108
+                },
+                "3": {
+                  "title": "HornetQ",
+                  "id": 109
+                }
+              }
+            },
+            "9": {
+              "title": "Distributed Processing",
+              "id": 111,
+              "ideas": {
+                "1": {
+                  "title": "Hadoop",
+                  "id": 112
+                },
+                "2": {
+                  "title": "MapReduce",
+                  "id": 116
                 }
               }
             }
@@ -105,7 +163,12 @@
             }
           },
           "attr": {
-            "style": {}
+            "style": {},
+            "position": [
+              151,
+              -388,
+              12
+            ]
           }
         },
         "3": {
@@ -128,9 +191,9 @@
           "attr": {
             "style": {},
             "position": [
-              86.5,
-              168,
-              2
+              139,
+              222,
+              17
             ]
           }
         },
@@ -138,12 +201,12 @@
           "title": "CI Server",
           "id": 39,
           "attr": {
+            "style": {},
             "position": [
-              61,
-              306,
-              4
-            ],
-            "style": {}
+              119,
+              551,
+              15
+            ]
           },
           "ideas": {
             "1": {
@@ -156,7 +219,109 @@
             }
           }
         },
-        "5": {
+        "7": {
+          "title": "Relational Database",
+          "id": 90,
+          "ideas": {
+            "1": {
+              "title": "Oracle",
+              "id": 91
+            },
+            "2": {
+              "title": "MS SQL",
+              "id": 92
+            },
+            "3": {
+              "title": "MySQL",
+              "id": 93
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "17": {
+          "title": "NoSQL",
+          "id": 95,
+          "attr": {
+            "style": {},
+            "position": [
+              34,
+              718,
+              18
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "Mongo",
+              "id": 96
+            },
+            "2": {
+              "title": "Cassandra",
+              "id": 98
+            },
+            "3": {
+              "title": "Redis",
+              "id": 99
+            }
+          }
+        },
+        "2.5": {
+          "title": "ORM",
+          "id": 54,
+          "ideas": {
+            "1": {
+              "title": "HIbernate",
+              "id": 55
+            },
+            "2": {
+              "title": "Data Nucleus",
+              "id": 56
+            },
+            "2.5": {
+              "title": "iBATIS",
+              "id": 104,
+              "attr": {
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "style": {},
+            "position": [
+              136,
+              -154,
+              13
+            ]
+          }
+        },
+        "2.75": {
+          "title": "Data Representation",
+          "id": 64,
+          "ideas": {
+            "1": {
+              "title": "JAXB",
+              "id": 65
+            },
+            "2": {
+              "title": "Jackson",
+              "id": 66
+            },
+            "3": {
+              "title": "XML",
+              "id": 86,
+              "ideas": {}
+            },
+            "4": {
+              "title": "JSON",
+              "id": 89
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "3.5": {
           "title": "Build",
           "id": 58,
           "ideas": {
@@ -173,41 +338,36 @@
               "title": "Gradle",
               "id": 63
             }
+          },
+          "attr": {
+            "style": {},
+            "position": [
+              164,
+              397,
+              16
+            ]
           }
         },
-        "3.5": {
-          "title": "ORM",
-          "id": 54,
+        "1.5": {
+          "title": "OS",
+          "id": 79,
           "ideas": {
             "1": {
-              "title": "HIbernate",
-              "id": 55
+              "title": "Windows",
+              "id": 80
             },
             "2": {
-              "title": "Data Nucleus",
-              "id": 56
-            },
-            "3": {
-              "title": "EclipseLink",
-              "id": 57
+              "title": "*nix flavours",
+              "id": 81
             }
           },
           "attr": {
-            "style": {}
-          }
-        },
-        "4.5": {
-          "title": "Data Marshalling",
-          "id": 64,
-          "ideas": {
-            "1": {
-              "title": "JAXB",
-              "id": 65
-            },
-            "2": {
-              "title": "Jackson",
-              "id": 66
-            }
+            "style": {},
+            "position": [
+              143,
+              -490,
+              11
+            ]
           }
         }
       },
@@ -302,6 +462,88 @@
             "2": {
               "title": "JDO",
               "id": 53
+            }
+          }
+        },
+        "3": {
+          "title": "Cryptography",
+          "id": 67,
+          "ideas": {
+            "1": {
+              "title": "Key Pair",
+              "id": 68
+            },
+            "2": {
+              "title": "KEK",
+              "id": 69
+            },
+            "3": {
+              "title": "DEK",
+              "id": 70
+            },
+            "4": {
+              "title": "RSA ...",
+              "id": 71
+            }
+          }
+        },
+        "3.5": {
+          "title": "Auth and Auth",
+          "id": 73,
+          "attr": {
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "SSO (CAS)",
+              "id": 74
+            },
+            "2": {
+              "title": "OAuth",
+              "id": 75
+            },
+            "3": {
+              "title": "OpenId",
+              "id": 77
+            },
+            "4": {
+              "title": "Active Directory",
+              "id": 72,
+              "attr": {
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "SAML",
+              "id": 78
+            }
+          }
+        },
+        "4.5": {
+          "title": "Database",
+          "id": 101,
+          "ideas": {
+            "1": {
+              "title": "SQL",
+              "id": 102
+            },
+            "2": {
+              "title": "NoSQL",
+              "id": 103
+            }
+          }
+        },
+        "5.5": {
+          "title": "BigData",
+          "id": 113,
+          "ideas": {
+            "1": {
+              "title": "Distributed Storage",
+              "id": 114
+            },
+            "2": {
+              "title": "Distributed Processing",
+              "id": 115
             }
           }
         }
