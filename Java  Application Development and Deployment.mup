@@ -266,6 +266,20 @@
             }
           }
         },
+        "18": {
+          "title": "ESB",
+          "id": 123,
+          "ideas": {
+            "1": {
+              "title": "Mule",
+              "id": 124
+            },
+            "2": {
+              "title": "Tibco",
+              "id": 125
+            }
+          }
+        },
         "2.5": {
           "title": "ORM",
           "id": 54,
@@ -397,6 +411,10 @@
                 "2": {
                   "title": "SOAP",
                   "id": 31
+                },
+                "3": {
+                  "title": "ESB",
+                  "id": 118
                 }
               },
               "attr": {
@@ -544,6 +562,24 @@
             "2": {
               "title": "Distributed Processing",
               "id": 115
+            }
+          }
+        },
+        "6.5": {
+          "title": "Cloud Computing",
+          "id": 119,
+          "ideas": {
+            "1": {
+              "title": "PaaS",
+              "id": 120
+            },
+            "2": {
+              "title": "IaaS",
+              "id": 121
+            },
+            "3": {
+              "title": "SaaS",
+              "id": 122
             }
           }
         }
